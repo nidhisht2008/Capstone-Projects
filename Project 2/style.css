@@ -1,0 +1,63 @@
+.Introduction{
+    background-image: url("https://i.pinimg.com/736x/50/95/14/509514e4c22113df9590cb714ef63c18.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.oswald{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.portfolio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1{
+  text-transform: uppercase;
+  color: #D6DEE7;
+  font-size: 20rem;
+}
+
+.navbar{
+  background-color: #1E293B;
+}
+
+.contact{
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+  .Introduction {
+    background-image: url("https://i.pinimg.com/736x/50/95/14/509514e4c22113df9590cb714ef63c18.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  .portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  h1 {
+    text-transform: uppercase;
+    color: #D6DEE7;
+    font-size: 10rem; /* Adjusted for smaller screens */
+  }
+}
