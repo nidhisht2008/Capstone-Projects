@@ -1,0 +1,36 @@
+body{
+    background-color:#F0E7DD;
+}
+
+#create-blog{
+    color: #44515B;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: min(90%,800px);
+}
+
+#create-head{
+    padding:20px;
+    text-align: center;
+    color: #262C30;
+}
+
+#title{
+    height: 40px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+#content{
+    min-height: 400px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#submit-btn{
+    background-color: #9EB8BF;
+    height: 30px;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color:#F0E7DD;
+}
+
+#empty{
+    margin: 2.5%;
+    height: 60vh;
+    width: auto;
+  }
+
+.main{
+    text-align: center;
+    color: #44515B;
+}
+
+.heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#delete-blog{
+    color: #44515B;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    width: min(90%,800px);
+}
+
+#title{
+    height: 40px;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+#submit-btn{
+    background-color: #9EB8BF;
+    height: 30px;
+}

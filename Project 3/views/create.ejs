@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create  Blog</title>
+    <link rel="stylesheet" href="/styles/header.css"/>
+    <link rel="stylesheet" href="/styles/create.css"/>
+</head>
+<body>
+    <%- include("header.ejs") %>
+    <h2 id="create-head">Creating New Blog ✒️</h2>
+    <form id="create-blog" action="/create" method="POST">
+        <label for="title">Title of the Blog: </label>
+        <input id="title" type="text" name="titleOfBlog">
+        <label for="content">Content of the Blog: </label>
+        <textarea id="content" type="text" name="contentOfBlog"></textarea>
+        <input id="submit-btn" name="submit" type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog Web</title>
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <%- include("header.ejs") %>
+    <section class="main">
+      <br>
+      <% if (blogs.length>0) {%>
+        <h2 class="cormorant-garamond heading">Your Blogs</h2>
+        <ul>
+        <% blogs.forEach((blog)=> { %>
+          <a href="/blog/<%=blog.id%>"><%= blog.title%></a><br>
+        <%})%>
+        </ul>
+      <%}else{%>
+        <img id="empty" src="images/Empty.png" alt="A feather pen saying empty"/>
+        <h2>You have no blogs. To create a blog click on the "Create Blog" on the top right corner.</h2>
+      <%}%>
+    </section>
+  </body>
+</html>

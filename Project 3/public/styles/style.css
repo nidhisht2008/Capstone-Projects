@@ -1,0 +1,28 @@
+.cormorant-garamond{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.main{
+    text-align: center;
+    color: #44515B;
+}
+
+body{
+  background-color:#F0E7DD;
+}
+
+#empty{
+  margin: 2.5%;
+  height: 60vh;
+  width: auto;
+}
+
+.heading{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
