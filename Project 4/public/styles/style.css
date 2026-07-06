@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #070616;
+    text-align: center;
+}
+
+.first-head{
+    color: #F62F63;
+    font-size: 10vw;
+    padding: 20px;
+}
+
+.geist-pixel{
+    font-family: "Geist Pixel", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "ELSH" 0;
+  }
+  
+.quote{
+    color: #D6D4E8;
+}
+
+
+.cormorant-garamond{
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.quote-box{
+    width: 70%;
+    margin: auto;
+}
+
+.charcter-image{
+    margin: 20px;
+}
+
+.detail{
+    color: #8F8AC0;
+}
